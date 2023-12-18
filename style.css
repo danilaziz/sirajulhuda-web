@@ -4,6 +4,19 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .container {
   max-width: 1200px;
   width: 90%;
@@ -29,6 +42,7 @@ body {
   margin: 0 1.5%;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px;
 }
 
 .nav .nav-brand h1 a {
@@ -67,4 +81,37 @@ span {
 
 .nav-menu a:hover::after {
   transform: scaleX(0.5);
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.img-responsive {
+  width: 130%;
+}
+
+.hero-desc h2 {
+  font-size: 60px;
+}
+
+.hero-desc h1 {
+  font-size: 50px;
+}
+
+.btn {
+  background: darkgreen;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background: darkred;
 }
