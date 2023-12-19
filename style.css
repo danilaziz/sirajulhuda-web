@@ -88,7 +88,7 @@ span {
 }
 
 .img-responsive {
-  width: 130%;
+  width: 115%;
 }
 
 .hero-desc h2 {
@@ -114,4 +114,10 @@ span {
 
 .btn:hover {
   background: darkred;
+}
+
+.tentangkami h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
 }
