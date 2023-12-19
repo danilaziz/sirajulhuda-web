@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,6 +25,7 @@ p {
   max-width: 1200px;
   width: 90%;
   margin: auto;
+  padding: 100px;
 }
 
 .row {
@@ -34,6 +39,12 @@ p {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
+  position: fixed;
+  margin: 0 20%;
+  background: #fff;
+  box-shadow: 0px 1px 5px #c4c3c388;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .nav {
@@ -116,8 +127,68 @@ span {
   background: darkred;
 }
 
-.tentangkami h2 {
+.tentangkami {
   text-align: center;
-  font-size: 30px;
-  padding-top: 20px;
+  font-size: 35px;
+  padding: 70px;
+}
+
+.img-tentang {
+  width: 45%;
+  padding: 10px;
+}
+
+.col8 {
+  text-align: center;
+}
+
+.tentang-desc {
+  align-items: center;
+  max-width: 1200px;
+  width: 50%;
+  margin: auto;
+  background: aqua;
+  box-shadow: 1px 1px 1px rgb(201, 199, 199);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.btn-detail {
+  background: green;
+  display: inline-block;
+  padding: 5px 25px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.btn-detail a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-detail:hover {
+  background: darkgreen;
+}
+
+.container-tentang {
+  padding: 20px;
+}
+
+.tentang-desc1 {
+  align-items: center;
+  max-width: 1200px;
+  width: 50%;
+  margin: auto;
+}
+
+.img-tentang1 {
+  width: 45%;
+  padding: 10px;
+  float: right;
+}
+
+.teks {
+  float: right;
 }
