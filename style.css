@@ -41,7 +41,7 @@ p {
   margin: 0 auto;
   position: fixed;
   margin: 0 20%;
-  background: #fff;
+  background: rgb(233, 247, 247);
   box-shadow: 0px 1px 5px #c4c3c388;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -163,7 +163,7 @@ span {
   align-items: center;
   max-width: 1200px;
   width: 48%;
-  margin: auto;
+  margin: 0 auto;
   background: aqua;
   box-shadow: 1px 1px 1px rgb(201, 199, 199);
   border-top-right-radius: 100px;
@@ -198,7 +198,7 @@ span {
   align-items: center;
   max-width: 1200px;
   width: 48%;
-  margin: auto;
+  margin: 0 auto;
   box-shadow: 1px 1px 1px rgb(201, 199, 199);
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
@@ -216,5 +216,58 @@ span {
 .tentang {
   text-align: center;
   font-size: 35px;
-  padding: 90px;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.box-tentangkami {
+  width: 500px;
+  height: 200px;
+  padding: 10px 15px;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  background-color: rgb(72, 224, 211);
+}
+
+.box-tentangkami:hover {
+  background-color: rgb(75, 242, 228);
+  cursor: pointer;
+}
+
+.kontak {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.75);
+  display: inline-block;
+}
+
+.kontak:hover {
+  cursor: pointer;
+  background-color: rgb(216, 237, 237);
+}
+
+.figure {
+  display: inline-block;
+}
+
+.figcaption {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: rgb(63, 242, 168);
+  text-align: center;
+  padding: 10px 10px;
 }
